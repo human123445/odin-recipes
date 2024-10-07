@@ -1,6 +1,7 @@
 body {
     font-family: 'Times New Roman', Times, serif;
 }
+
 h1 {
     background-color: rgb(125, 235, 235);
     text-align: center
@@ -11,9 +12,12 @@ h2 {
     font-weight: bolder;
     font-size: 30px ;
     text-decoration: underline;
-
 }
 
 h2 {
     font-size: 26px;
+}
+
+.words {
+    font-size: large;
 }
