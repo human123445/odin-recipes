@@ -1,23 +1,72 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0 0;
+    padding: 0 0;
+}
+
 body {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(183, 209, 209);
 }
 
-h1 {
-    background-color: rgb(125, 235, 235);
-    text-align: center
+img {
+    width: 200px;
+    display: inline-block;
+    vertical-align: top;
 }
 
-.drink,
+ul {
+    list-style: none;
+}
+
+h1,
 h2 {
+    color: darkblue;
+    text-decoration-line: underline;
+}
+
+p,
+li {
+    margin: 5px 0;
+    font-size: 18px;    
+}
+
+div.toolz {
+    display: inline-block;
+    margin: 0 5 0 0px;
+    background-color: rgb(199, 233, 244);
+    padding: 0 2px;
+}
+
+.card {
+    width: 800px;
+    background-color: rgb(237, 232, 232);
+    margin: 20px;
+    box-shadow: 1px 1px 4px 1px;
+}
+
+.content {
+    padding: 20px;
+    display: inline-block;
+    width: 500px;
+    vertical-align: top;
+}
+
+.ingredients {
+    margin-top: 10px;
+}
+
+a.fax {
+    margin: 10px 0;
+    background-color: steelblue;
+    display: inline-block;
     font-weight: bolder;
-    font-size: 30px ;
-    text-decoration: underline;
+    padding: 10px;
+    color: black;
 }
 
-h2 {
-    font-size: 26px;
-}
 
-.words {
-    font-size: large;
-}
+
+
