@@ -14,7 +14,7 @@ body {
 .card {
     margin: 20px auto;
     background-color: whitesmoke;
-    width: 500px;
+    width: 700px;
     box-shadow: 1px 1px 4px 1px;
     padding: 20px;
 }
@@ -39,9 +39,13 @@ p {
     font-size: 20px;
 }
 
+.tasty {
+    display: flex;
+    justify-content: space-around;
+}
+
 .cook {
-    display: block;
-    width: 300px;
+    width: 200px;
     padding: 20px; 
     background-color: rgb(157, 250, 241);
     border: 3px solid black;
@@ -56,3 +60,4 @@ p {
     padding: 0 3px;
     margin: 0 -3px;
 }
+

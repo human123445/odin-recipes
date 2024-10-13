@@ -1,0 +1,58 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0 0;
+    padding: 0 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: aliceblue;
+}
+
+.card {
+    border: 3px solid black;
+    margin: 16px auto;
+    padding: 40px;
+}
+
+.cardz {
+    border: 3px solid black;
+    padding: 40px;
+    margin: 3px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: flex-start;
+}
+
+h1,
+h2 {
+    text-decoration: underline;
+}
+
+.cardz.one {
+    display: flex;
+    flex-direction: row; 
+}
+
+img {
+    max-width: 100%;
+}
+
+h1 {}
+
+p .intro {}
+
+.cardz.two {}
+
+.cardz.three {}
+
+.cardz.four {}
+
+.cardz.five {}
+
+.cardz.six {}
+
+.cardz.seven {}
